@@ -24,6 +24,7 @@ public class Kontroller {
             @Override
             public void actionPerformed(ActionEvent e) {
                 nezet.getJtextField1("lefutott!\n");
+                nezet.getJComboBox("új elem");
                 System.out.println("a kattintás lefutott");
             }
         } );
