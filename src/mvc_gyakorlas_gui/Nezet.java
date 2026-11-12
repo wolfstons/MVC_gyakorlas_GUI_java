@@ -69,7 +69,7 @@ public class Nezet extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
     
     public JButton getjButton1() {
         return jButton1;
@@ -77,6 +77,10 @@ public class Nezet extends javax.swing.JFrame {
 
     public JCheckBox getjCheckBox1() {
         return jCheckBox1;
+    }
+
+    public JTextArea getjTextArea1() {
+        return jTextArea1;
     }
 
     public void getJtextField1(String szoveg ) {
