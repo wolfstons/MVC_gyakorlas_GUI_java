@@ -1,6 +1,9 @@
 
 package mvc_gyakorlas_gui;
 
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+
 
 public class NewJFrame extends javax.swing.JFrame {
 
@@ -46,16 +49,18 @@ public class NewJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
     
-    public static void main(String args[]) {
-       
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new NewJFrame().setVisible(true);
-            }
-        });
+    public JButton getjButton1() {
+        return jButton1;
     }
+
+    public JCheckBox getjCheckBox1() {
+        return jCheckBox1;
+    }
+    
+    
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
