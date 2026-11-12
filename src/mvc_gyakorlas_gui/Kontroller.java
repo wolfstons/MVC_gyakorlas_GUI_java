@@ -3,8 +3,11 @@ package mvc_gyakorlas_gui;
 
 
 public class Kontroller {
+    private Nezet  nezet;
+    
 
-    public Kontroller() {
+    public Kontroller(Nezet nezet) {
+        this.nezet = nezet;
     }
     
 }
