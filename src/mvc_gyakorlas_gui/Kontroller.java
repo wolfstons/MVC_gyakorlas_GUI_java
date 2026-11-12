@@ -23,6 +23,7 @@ public class Kontroller {
         btn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                nezet.getjCheckBox1().setSelected(true);
                 nezet.getJtextField1("lefutott!\n");
                 nezet.getJComboBox("új elem");
                 System.out.println("a kattintás lefutott");
