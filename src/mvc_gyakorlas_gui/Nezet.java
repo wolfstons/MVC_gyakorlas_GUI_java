@@ -74,7 +74,7 @@ public class Nezet extends javax.swing.JFrame {
     }
 
     public void getJtextField1(String szoveg ) {
-         jTextArea1.append(szoveg);
+         jTextArea1.append(szoveg+System.lineSeparator());
 
     }
     
