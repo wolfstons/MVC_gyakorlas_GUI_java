@@ -5,10 +5,10 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 
 
-public class NewJFrame extends javax.swing.JFrame {
+public class Nezet extends javax.swing.JFrame {
 
     
-    public NewJFrame() {
+    public Nezet() {
         initComponents();
     }
 
