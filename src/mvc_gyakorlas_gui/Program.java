@@ -9,6 +9,7 @@ public class Program {
        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                Kontroller kontroller = new Kontroller(new Nezet());
                 new Nezet().setVisible(true);
             }
         });
